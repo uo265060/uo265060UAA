@@ -3,6 +3,11 @@ body{
     color: white;
 }
 
+video{
+    width: 100%;
+    height: auto;
+}
+
 #videoCerdenia{
     width: 100%;
     height: auto;
