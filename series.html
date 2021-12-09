@@ -68,7 +68,12 @@
                                     </p>
                                 </div>
                                 <div class="row mb-3">
-                                    <video src ="videos/LaReinaDelSur.mp4" controls preload="auto"></video>
+                                    <video controls>
+                                        <source src="videos/LaReinaDelSur.mp4" type="video/mp4">
+                                        <track src="videos/subtitulosLRS.vtt" kind="subtitles" srclang="es" label="Español">
+                                    </video>
+                                    
+                                    <p hidden>Vídeo de la canción de la serie La Reina del Sur.</p>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +102,7 @@
                                 </div>
                                 <div class="row mb-3">
                                     <video src ="videos/FisicaOQuimica.mp4" controls preload="auto"></video>
+                                    <p hidden>Vídeo de la canción de la serie Física o Química.</p>
                                 </div>
                             </div>
                         </div>
