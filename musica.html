@@ -35,11 +35,11 @@
               </li>
               
             </ul>
-            <form class="d-flex">
+            <div class="d-flex">
                 <label for="busqueda" hidden>Búsqueda:</label>
                 <input id="busqueda" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-primary" type="submit">Buscar</button>
-            </form>
+                <button id="btnBuscar" class="btn btn-primary">Buscar</button>
+            </div>
           </div>
         </div>
     </nav>
@@ -64,6 +64,7 @@
                                 <source src ="musica/JovenesEternamente.mp3" type="audio/mpeg"/>
                             </audio>
                             <h4>Jóvenes Eternamente - Pol 3.14 </h4>
+                            <p hidden>Canción Jóvenes Eternamente - Pol 3.14</p>
                         </div>
                         <div class="col align-self-center text-center">
                             <h3>Reggaeton</h3>
@@ -71,6 +72,7 @@
                                 <source src ="musica/LaCuriosidad.mp3" type="audio/mpeg"/>
                             </audio>
                             <h4>La Curiosidad - Jay Wheeler, Myke Towers, DJ Nelson </h4>
+                            <p hidden>Canción La Curiosidad - Jay Wheeler, Myke Towers, DJ Nelson</p>
                         </div>
                         <div class="col align-self-center text-center">
                             <h3>Música en inglés</h3>
@@ -78,6 +80,7 @@
                                 <source src ="musica/SayYouWontLetGo.mp3" type="audio/mpeg"/>
                             </audio>
                             <h4>Say You Won't Let Go - James Arthur</h4>
+                            <p hidden>Canción Say You Wont Let Go</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +113,6 @@
                 </a>
                 <span class="text-white">&copy; 2021 Lucía Prado García</span>
           </div>
-          <p class="text-white">Contacto: uo265060@uniovi.es</p>
         </footer>
       </div>
     
@@ -118,6 +120,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="buscador.js"></script>
     </body>
 </html>
