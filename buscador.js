@@ -15,6 +15,18 @@ var textosMusica=["Música que escucho", "Géneros de música favoritos", "Los g
 " A continuación, muestro una canción que me gusta de cada género.", "Pop español", "Jóvenes Eternamente - Pol 3.14", "Reggaeton", "La Curiosidad - Jay Wheeler, Myke Towers, DJ Nelson", "Música en inglés", "Say You Won't Let Go - James Arthur",
 "Mi canción favorita", "Mon Amour"];
 
+$('#busqueda').keypress(function(e) {
+    var keycode = (e.keyCode ? e.keyCode : e.which);
+    if (keycode == '13') {
+        $("a.active").removeClass("active");
+        var textoInput=$("#busqueda").val();
+        if (textoInput!=""){
+            buscarTexto(textoInput);
+        }else{
+            location.reload();
+    }
+    }
+});
 
 $("#btnBuscar").click(function(){
     $("a.active").removeClass("active");

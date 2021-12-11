@@ -13,4 +13,12 @@ video{
     height: auto;
 }
 
+figcaption{
+    font-style: italic;
+}
+
+.titulo{
+    font-style: italic;
+}
+
 

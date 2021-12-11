@@ -47,7 +47,7 @@
     <main class="text-white mb-1">
         <div class="container">
             <div class="row">
-                <h1 class="text-center">Mis series favoritas</h1>
+                <h1 class="text-center">Series favoritas</h1>
             </div>
             <div class="row bg-white text-black rounded">
                 <div class="container">
@@ -63,13 +63,17 @@
                     </div>
                     <div class="row mb-2">
                         <div class="col align-self-center text-center">
-                            <img src="fotos/LaReinaDelSur.jpg" class="img-fluid" alt="Foto de la serie La Reina del Sur">
+                            <figure>
+                                <img src="fotos/LaReinaDelSur.jpg" class="img-fluid" alt="Foto de la serie La Reina del Sur">
+                                <figcaption>Foto de la serie La Reina del Sur</figcaption>
+                            </figure>
                         </div>
                         <div class="col align-self-center text-center">
                             <video controls>
                                 <source src="videos/LaReinaDelSur.mp4" type="video/mp4">
                                 <track src="videos/subtitulosLRS.vtt" kind="subtitles" srclang="es" label="Español">
                             </video>
+                            <p class="titulo">Vídeo de la serie La Reina del Sur</p>
                             
                         </div>
                     </div>
@@ -91,7 +95,10 @@
                     </div>
                     <div class="row mb-2">
                         <div class="col align-self-center text-center">
-                            <img src="fotos/FisicaOQuimica.jpg" class="img-fluid" alt="Foto de la serie Física o Química">
+                            <figure>
+                                <img src="fotos/FisicaOQuimica.jpg" class="img-fluid" alt="Foto de la serie Física o Química">
+                                <figcaption>Foto de la serie Física o Química</figcaption>
+                            </figure>
                         </div>
                         <div class="col align-self-center text-center">
                             
@@ -99,7 +106,7 @@
                                 <source src="videos/FisicaOQuimica.mp4" type="video/mp4">
                                 <track src="videos/subtitulosFoQ.vtt" kind="subtitles" srclang="es" label="Español">
                             </video>
-                            <p hidden>Vídeo de la canción de la serie Física o Química.</p>
+                            <p class="titulo">Vídeo de la serie Física o Química.</p>
                             
                             
                         </div>
@@ -113,7 +120,8 @@
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             
-            <div class="col-md-4 d-flex align-items-center">
+            <a href="mapaSitio.html" class="text-white text-center">Mapa del sitio</a>
+            <div class="col-md-3 d-flex align-items-center">
                 <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" href="index.html">
                     <img src="fotos/L2.png" width="30" height="30" alt="Logo de la página web personal de Lucía Prado García">
                 </a>
