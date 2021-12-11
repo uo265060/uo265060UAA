@@ -3,6 +3,10 @@ body{
     color: white;
 }
 
+#btnBuscar{
+    background-color: #23549F
+}
+
 #videoMonAmour{
     width: 70%;
     height: auto;
@@ -20,5 +24,7 @@ figcaption{
 .titulo{
     font-style: italic;
 }
+
+
 
 
