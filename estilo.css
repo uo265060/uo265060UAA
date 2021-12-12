@@ -4,7 +4,8 @@ body{
 }
 
 #btnBuscar{
-    background-color: #23549F
+    background-color: #23549F;
+    color: white;
 }
 
 #videoMonAmour{
@@ -27,5 +28,6 @@ figcaption{
 
 a.enlaceMapa{
     color: #23549F;
+    background-color: white;
 }
 
